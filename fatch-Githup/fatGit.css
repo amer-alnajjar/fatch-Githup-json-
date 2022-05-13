@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 700px;
+  margin: 100px auto;
+  background-color: gainsboro;
+  padding: 20px;
+}
+.container .gitName input {
+  padding: 20px;
+  width: calc(700px - 120px);
+  border: 3px solid gold;
+  border-radius: 10px;
+}
+.container .gitName input:focus {
+  outline: none;
+}
+.container .gitName button {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: gold;
+  transition: 0.3s;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .gitName button:hover {
+  background-color: white;
+  color: gold;
+}
+.container .showName {
+  margin-top: 20px;
+}
+.container .showName div {
+  background-color: white;
+  width: calc(700px - 90px);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.container .showName div a {
+  background-color: goldenrod;
+  text-decoration: none;
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  float: right;
+  line-height: 0.3;
+}
+.container .showName div span {
+  margin-left: 10px;
+  float: right;
+  width: 100px;
+
+}
